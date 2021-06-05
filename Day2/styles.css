@@ -1,0 +1,24 @@
+* {
+	font-family: "helvetica neue", helvetica, sans-serif;
+	font-size: 1.1em;
+}
+
+.container {
+	margin: 30px auto 30px auto;
+	padding: 18px;
+	max-width: 75%;
+	box-shadow: 7px 9px 34px 8px rgba(99, 99, 99, 0.42);
+	-webkit-box-shadow: 7px 9px 34px 8px rgba(99, 99, 99, 0.42);
+	-moz-box-shadow: 7px 9px 34px 8px rgba(99, 99, 99, 0.42);
+	background-color: #120e3f;
+}
+
+.container h1 {
+	padding: 8px;
+	width: fit-content;
+	background-color: #faebd7;
+}
+
+body {
+	background-color: #242b2e;
+}
