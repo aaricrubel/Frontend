@@ -44,21 +44,25 @@ for (let i = 0; i < 400; i++) {
 }
 
 pixel.forEach((px) => {
-	px.addEventListener("mousemove", () => {
-		if (px.style.backgroundColor === "rgb(222, 71, 56)") {
+	px.addEventListener("mouseenter", () => {
+		/* if (px.style.backgroundColor === "rgb(222, 71, 56)") {
 			px.style.backgroundColor = "rgb(251, 101, 92)";
 		} else if (px.style.backgroundColor === "rgb(255, 255, 255)") {
 			px.style.backgroundColor = "rgb(255, 233, 233)";
-		}
+		} */
+		px.style.opacity = "0.9";
 	});
 });
 
 pixel.forEach((px) => {
 	px.addEventListener("mouseleave", () => {
-		if (px.style.backgroundColor === "rgb(251, 101, 92)") {
+		/* if (px.style.backgroundColor === "rgb(251, 101, 92)") {
 			px.style.backgroundColor = "rgb(222, 71, 56)";
 		} else if (px.style.backgroundColor === "rgb(255, 233, 233)") {
 			px.style.backgroundColor = "rgb(255, 255, 255)";
-		}
+		} */
+		px.style.opacity = "1";
 	});
 });
+
+// JS adds inline CSS to an element, so unless you mark a style as important in styles.css, it won't work.
