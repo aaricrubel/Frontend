@@ -1,0 +1,18 @@
+.card {
+	height: 40vh;
+	width: 40vw;
+	background-color: whitesmoke;
+	box-sizing: border-box;
+	padding: 0.5rem;
+	box-shadow: 10px 10px 5px 0px rgba(193, 193, 193, 0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(193, 193, 193, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(193, 193, 193, 0.75);
+}
+.meme {
+	width: 100%;
+	border-radius: 10px;
+}
+h2,
+p {
+	text-align: left;
+}

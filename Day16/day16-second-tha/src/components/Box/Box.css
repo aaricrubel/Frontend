@@ -1,0 +1,7 @@
+.box {
+	border: 19px solid black;
+	height: 200px;
+	width: 200px;
+	display: grid;
+	grid-template-rows: repeat(8, 1fr);
+}
