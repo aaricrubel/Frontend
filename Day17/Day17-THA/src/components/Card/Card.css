@@ -1,0 +1,11 @@
+.card {
+	text-align: left;
+	background-color: aquamarine;
+	margin: 1rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem 10px;
+}
+
+h3 {
+	color: rgba(0, 0, 0, 0.7);
+}
