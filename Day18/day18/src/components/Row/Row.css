@@ -1,0 +1,11 @@
+.row {
+	display: flex;
+}
+
+.row:nth-child(even) .square:nth-child(even) {
+	background-color: black;
+}
+
+.row:nth-child(odd) .square:nth-child(odd) {
+	background-color: black;
+}
