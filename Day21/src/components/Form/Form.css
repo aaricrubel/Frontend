@@ -1,0 +1,16 @@
+.form {
+	margin-top: 10px;
+}
+
+input {
+	margin: 0.5rem;
+}
+
+.button-container {
+	margin: 0.2rem;
+}
+
+.btn {
+	padding-right: 9.8rem;
+	padding-left: 9.8rem;
+}
