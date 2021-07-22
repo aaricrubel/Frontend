@@ -1,0 +1,16 @@
+.template-grid-box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.template .image {
+	height: 350px;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px dashed black;
+}
